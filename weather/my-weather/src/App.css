@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #1A202C;
+  overflow: hidden;
+}
+.main-box{
+  margin-top: 7vh;
+  min-height: calc(90vh);
+  min-width: calc(97vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-main{
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom{
+  height: 40px;
+  width: 435px;
+  border: 1px solid aqua;
+}
+
+.top-main .head h2{
+  color: #43B1C9;
+  font-size: 35px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.top-main .search{
+  width: 60%;
+  height: 50px;
+}
+.top-main .search form{
+  display: flex;
+  column-gap: 4px;
+}
+.top-main .search form input{
+  width: 60%;
+  height: 50px;
+  background-color: #272D38;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  padding-left: 9px;
+  color: aliceblue;
+  font-size: 15px;
+  border: 2px solid #272D38;
+  transition: border 0.4s ease-in-out;
+}
+.top-main .search form input:focus{
+  border: 2px solid #63B3ED;
+}
+.top-main .search form button{
+  height: 57px;
+  width: 40%;
+  border-radius: 7px;
+  background-color: #63B3ED;
+  position: relative;
+  bottom: 2px;
+  cursor: pointer;
+}
+.weather-box{
+  height: 290px;
+  width: 400px;
+  background-color: #1c2230;
+  box-shadow: -4px 4px 0px #191E2A;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: aliceblue;
+}
+.weather-box h2{
+  font-size: 50px;
+}
